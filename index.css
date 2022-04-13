@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "Monserrat";
+	font-family: "Montserrat";
 }
 
 body{
@@ -19,6 +20,14 @@ body{
 	flex-direction: column;
 }
 
+h2{
+	font-size: 7vmin;
+}
+
+h3{
+	font-size: 3.5vmin;
+}
+
 /* PAGE 1 */
 
 .projects-title{
@@ -28,14 +37,23 @@ body{
 
 .projects{
 	display: flex;
-	flex: row;
-	width: 90%;
+	flex-direction: column;
+	width: 85%;
+	height: 90%;
 	align-self: center;
 }
 
 .projects-img{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	justify-content: space-evenly;
+}
+
+.thumb{
+	width: 100%;
+	object-fit: contain;
 }
 
 .projects-txt{
@@ -44,3 +62,6 @@ body{
 	text-align: center;
 }
 
+.project-name{
+	font-size: 4.5vmin;
+}
