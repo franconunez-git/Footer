@@ -31,12 +31,12 @@ h3{
 
 /* PAGE 1 */
 
-.projects-title{
+.project-title{
 	text-align: center;
 	margin: 5% 0 1% 0;
 }
 
-.projects{
+.project{
 	display: flex;
 	flex-direction: column;
 	width: 85%;
@@ -44,7 +44,7 @@ h3{
 	align-self: center;
 }
 
-.projects-img{
+.project-img{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -62,7 +62,7 @@ img{
 	object-fit: contain;
 }
 
-.projects-txt{
+.project-txt{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -70,6 +70,8 @@ img{
 
 .project-name{
 	font-size: 4.5vmin;
+	width: fit-content;
+	align-self: center;
 }
 
 a{
@@ -101,7 +103,7 @@ a{
 	display: inline-block;
 }
 
-.socials-link{
+.social-link{
 	width: 10%;
 	text-align: center;
 }
@@ -111,7 +113,7 @@ a{
 	margin: 0 0 2% 2.2%;
 }
 
-.socials{
+.social{
 	margin: 4% 0 0 0;
 	width: 100%;
 	display: flex;
