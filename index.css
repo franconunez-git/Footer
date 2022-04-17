@@ -43,7 +43,6 @@ h3{
 	width: 85%;
 	height: 90%;
 	align-self: center;
-	background-color: red;
 }
 
 .project{
@@ -52,7 +51,6 @@ h3{
 	width: 100%;
 	height: 50%;
 	justify-content: space-evenly;
-	background-color: green;
 }
 
 .thumb{
@@ -69,14 +67,12 @@ img{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: violet;
 }
 
 .project-name{
 	font-size: 4.5vmin;
 	width: fit-content;
 	align-self: center;
-	background-color: blue;
 }
 
 a{
@@ -150,7 +146,7 @@ a{
 	color: rgb(14, 118, 168);
 }
 
-@media (max-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (min-width:321px) {
 	.project-title{
 		margin: 1% 0 1% 0;
 	}
@@ -165,7 +161,6 @@ a{
 
 	.project-window{
 		width: 95%;
-		background-color: pink;
 		flex-direction: row;
 	}
 
@@ -200,5 +195,16 @@ a{
 
 	.social{
 		margin: 6% 0 0 0;
+	}
+}
+
+@media (min-width:481px) and (max-width: 768px){
+	.contact-logo{
+		font-size: 3.8vmin;
+	}
+
+	.social{
+		font-size: 6vmin;
+		margin: 2% 0 0 0;
 	}
 }
