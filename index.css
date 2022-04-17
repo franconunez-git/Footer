@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Montserrat";
+	box-sizing: border-box;
 }
 
 body{
@@ -36,42 +37,46 @@ h3{
 	margin: 5% 0 1% 0;
 }
 
-.project{
+.project-window{
 	display: flex;
 	flex-direction: column;
 	width: 85%;
 	height: 90%;
 	align-self: center;
+	background-color: red;
 }
 
-.project-img{
+.project{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 100%;
+	height: 50%;
 	justify-content: space-evenly;
+	background-color: green;
 }
 
 .thumb{
-	max-height: 40%;
 	width: 100%;
-	object-fit: contain;
 }
 
 img{
 	object-fit: contain;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .project-txt{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	background-color: violet;
 }
 
 .project-name{
 	font-size: 4.5vmin;
 	width: fit-content;
 	align-self: center;
+	background-color: blue;
 }
 
 a{
@@ -143,4 +148,57 @@ a{
 
 .fa-linkedin:hover{
 	color: rgb(14, 118, 168);
+}
+
+@media (max-width:480px) and (orientation:landscape) {
+	.project-title{
+		margin: 1% 0 1% 0;
+	}
+
+	h2{
+		font-size: 5.8vmin;
+	}
+	
+	h3{
+		font-size: 2.8vmin;
+	}
+
+	.project-window{
+		width: 95%;
+		background-color: pink;
+		flex-direction: row;
+	}
+
+	.project{
+		height: 100%;
+		width: 50%;
+	}
+
+	.contact-title{
+		margin: 3% 0 3% 0;
+	}
+
+	.person{
+		width: 70%;
+		height: 15%;
+		gap: 6%;
+		margin: 2% 0 2% 0;
+	}
+
+	.name{
+		height: auto;
+		margin: 0 0 0 2.2%;
+	}
+
+	.contact-logo{
+		font-size: 3vmin;
+	}
+
+	.contact-info{
+		font-size: 6vmin;
+	}
+
+	.social{
+		margin: 6% 0 0 0;
+	}
 }
