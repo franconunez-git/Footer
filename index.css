@@ -208,3 +208,34 @@ a{
 		margin: 2% 0 0 0;
 	}
 }
+
+@media (min-width:769px){
+	.project-window{
+		flex-direction: row;
+		margin:  0 0 0;
+		width: 95%;
+	}
+	.project{
+		height: 100%;
+		width: 50%;
+	}
+
+	.contact-logo{
+		font-size: 3.8vmin;
+	}
+
+	.social{
+		font-size: 6vmin;
+		margin: 2% 0 0 0;
+	}
+
+	.contact-title{
+		margin:0;
+	}
+
+	.person{
+		margin: 1.5% 0 0 0;
+	}
+}
+
+
